@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: naveen9700/bankapp:v4
+        image: naveen9700/bankapp:${BUILD_NUMBER}
         ports:
         - containerPort: 8080
         env:
